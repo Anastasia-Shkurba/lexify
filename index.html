@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Lexify</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="logo header__logo" href="/">
+        <img class="logo__img" src="img/logo.png" alt="" aria-hidden="true">
+        <h1 class="logo__title">LEXIFY</h1>
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#"> <!--вставить линк на страницу теста и так внизу везде-->
+              <img class="header__link-img" src="img/nav-lang.svg" alt="" aria-hidden="true">
+              Тест
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <img class="header__link-img" src="img/nav-course.svg" alt="" aria-hidden="true">
+              Курси
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <img class="header__link-img" src="img/nav-about.svg" alt="" aria-hidden="true">
+              Про нас
+            </a>
+          </li>
+
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <img class="header__link-img" src="img/nav-contact.svg" alt="" aria-hidden="true">
+              Контакти
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <div class="hero__main">
+            <h2 class="hero__title">Почніть говорити, а не просто вчити</h2>
+            <p class="hero__text">Визначте свій рівень за кілька хвилин і отримайте індивідуальний план навчання. Ми
+              допоможемо обрати курс,який дійсно приведе до результату.</p>
+            <div class="btn-group hero__buttons">
+              <button class="btn btn--md hero__btn">Пройти тест <span class="btn__arrow">→</span></button>
+              <button class="btn btn--md btn--outline hero__btn">Всі курси</button>
+            </div>
+          </div>
+
+          <div class="hero__facts">
+            <div class="hero__fact">
+              <span class="hero__fact-value">15+</span>
+              <span class="hero__fact-label">Років <br> досвіду</span>
+            </div>
+            <div class="hero__fact">
+              <span class="hero__fact-value">50+</span>
+              <span class="hero__fact-label">Кваліфікованих <br> викладачів</span>
+            </div>
+            <div class="hero__fact">
+              <span class="hero__fact-value">7K+</span>
+              <span class="hero__fact-label">Успішних <br> студентів</span>
+            </div>
+          </div>
+        </div>
+
+        <img class="hero__img" src="img/test.png" alt="" aria-hidden="true">
+      </section>
+
+      <section class="courses">
+        <h2 class="title courses__title">Досліджуйте наші мовні програми</h2>
+        <p class="courses__subtitle">Оберіть одну з шести мов світового значення та навчайтесь за продуманими курсами з
+          підтримкою досвідчених викладачів. Кожна програма охоплює всі ключові навички — від розуміння до впевненого
+          спілкування в реальних ситуаціях.</p>
+
+        <div class="courses__grid">
+          <article class="card courses__card">
+            <div class="card__top">
+              <img class="card__img" src="img/english.jpg" alt="" aria-hidden="true">
+              <span class="card__badge">№1 у світі</span>
+            </div>
+
+            <div class="card__content">
+              <div class="card__header">
+                <h3 class="card__title">Англійська</h3>
+                <p class="card__subtitle">English</p>
+              </div>
+              <ul class="card__stats">
+                <li class="card__stat">
+                  <span class="card__stat-label">Носії</span>
+                  <span class="card__stat-value">1,5 більйонів</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Країни</span>
+                  <span class="card__stat-value">67 країн</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Складність</span>
+                  <span class="card__stat-value">Середня</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Рівні</span>
+                  <span class="card__stat-value">А1 - С2</span>
+                </li>
+              </ul>
+              <button class="btn btn-sm card__btn">Вивчати англійську <span class="btn__arrow">→</span></button>
+            </div>
+
+          </article>
+
+          <article class="card courses__card">
+            <div class="card__top">
+              <img class="card__img" src="img/french.jpg" alt="" aria-hidden="true">
+              <span class="card__badge">№5 у світі</span>
+            </div>
+            <div class="card__content">
+              <div class="card__header">
+                <h3 class="card__title">Французька</h3>
+                <p class="card__subtitle">Français</p>
+              </div>
+              <ul class="card__stats">
+                <li class="card__stat">
+                  <span class="card__stat-label">Носії</span>
+                  <span class="card__stat-value">280 мільйонів</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Країни</span>
+                  <span class="card__stat-value">29 країн</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Складність</span>
+                  <span class="card__stat-value">Середня</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Рівні</span>
+                  <span class="card__stat-value">А1 - С1</span>
+                </li>
+              </ul>
+              <button class="btn btn-sm card__btn">Вивчати французьку <span class="btn__arrow">→</span></button>
+            </div>
+          </article>
+
+          <article class="card courses__card">
+            <div class="card__top">
+              <img class="card__img" src="img/german.jpg" alt="" aria-hidden="true">
+              <span class="card__badge">№11 у світі</span>
+            </div>
+            <div class="card__content">
+              <div class="card__header">
+                <h3 class="card__title">Німецька</h3>
+                <p class="card__subtitle">Deutsch</p>
+              </div>
+              <ul class="card__stats">
+                <li class="card__stat">
+                  <span class="card__stat-label">Носії</span>
+                  <span class="card__stat-value">135 мільйонів</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Країни</span>
+                  <span class="card__stat-value">6 країн</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Складність</span>
+                  <span class="card__stat-value">Висока</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Рівні</span>
+                  <span class="card__stat-value">А1 - С1</span>
+                </li>
+              </ul>
+              <button class="btn btn-sm card__btn">Вивчати німецьку <span class="btn__arrow">→</span></button>
+            </div>
+          </article>
+
+          <article class="card courses__card">
+            <div class="card__top">
+              <img class="card__img" src="img/spanish.jpg" alt="" aria-hidden="true">
+              <span class="card__badge">№2 у світі</span>
+            </div>
+            <div class="card__content">
+              <div class="card__header">
+                <h3 class="card__title">Іспанська</h3>
+                <p class="card__subtitle">Español</p>
+              </div>
+
+              <ul class="card__stats">
+                <li class="card__stat">
+                  <span class="card__stat-label">Носії</span>
+                  <span class="card__stat-value">559 мільйонів</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Країни</span>
+                  <span class="card__stat-value">21 країна</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Складність</span>
+                  <span class="card__stat-value">Низька</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Рівні</span>
+                  <span class="card__stat-value">А1 - С2</span>
+                </li>
+              </ul>
+              <button class="btn btn-sm card__btn">Вивчати іспанську <span class="btn__arrow">→</span></button>
+            </div>
+          </article>
+
+          <article class="card courses__card">
+            <div class="card__top">
+              <img class="card__img" src="img/japanese.jpg" alt="" aria-hidden="true">
+              <span class="card__badge">№9 у світі</span>
+            </div>
+
+            <div class="card__content">
+              <div class="card__header">
+                <h3 class="card__title">Японська</h3>
+                <p class="card__subtitle">日本語</p>
+              </div>
+
+              <ul class="card__stats">
+                <li class="card__stat">
+                  <span class="card__stat-label">Носії</span>
+                  <span class="card__stat-value">125 мільйонів</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Країни</span>
+                  <span class="card__stat-value">2 країни</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Складність</span>
+                  <span class="card__stat-value">Дуже висока</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Рівні</span>
+                  <span class="card__stat-value">А1 - В2</span>
+                </li>
+              </ul>
+
+              <button class="btn btn-sm card__btn">Вивчати японську <span class="btn__arrow">→</span></button>
+            </div>
+          </article>
+
+          <article class="card courses__card">
+            <div class="card__top">
+              <img class="card__img" src="img/chinese.jpg" alt="chinese course">
+              <span class="card__badge">№3 у світі</span>
+            </div>
+
+            <div class="card__content">
+              <div class="card__header">
+                <h3 class="card__title">Китайська</h3>
+                <p class="card__subtitle">中國人</p>
+              </div>
+
+              <ul class="card__stats">
+                <li class="card__stat">
+                  <span class="card__stat-label">Носії</span>
+                  <span class="card__stat-value">1,1 більйон</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Країни</span>
+                  <span class="card__stat-value">3 країни</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Складність</span>
+                  <span class="card__stat-value">Дуже висока</span>
+                </li>
+                <li class="card__stat">
+                  <span class="card__stat-label">Рівні</span>
+                  <span class="card__stat-value">А1 - В2</span>
+                </li>
+              </ul>
+
+              <button class="btn btn-sm card__btn">Вивчати китайську <span class="btn__arrow">→</span></button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about">
+        <h2 class="title about__title">Як ми навчаємо</h2>
+        <ul class="about__grid">
+          <li class="fact about__item">
+            <img class="fact__img" src="img/about-format.svg" alt="" aria-hidden="true">
+            <div class="fact__content">
+              <h3 class="fact__title">Зручний формат</h3>
+              <p class="fact__text">Навчання проходить у Zoom у визначений час разом із викладачем. Ви можете обрати
+                індивідуальні заняття або навчання в невеликих групах. Формат підбирається залежно від ваших цілей та
+                зручності.</p>
+            </div>
+          </li>
+
+          <li class="fact about__item">
+            <img class="fact__img" src="img/about-personal.svg" alt="" aria-hidden="true">
+            <div class="fact__content">
+              <h3 class="fact__title">Персональний підхід</h3>
+              <p class="fact__text">Навчання адаптується під ваш рівень і цілі: від розмовної практики до граматики й
+                аудіювання.</p>
+            </div>
+          </li>
+
+          <li class="fact about__item">
+            <img class="fact__img" src="img/about-materials.svg" alt="" aria-hidden="true">
+            <div class="fact__content">
+              <h3 class="fact__title">Доступ до матеріалів</h3>
+              <p class="fact__text">Після курсу всі матеріали залишаються у вас — повертайтесь до них у будь-який час.
+              </p>
+            </div>
+          </li>
+
+          <li class="fact fact--wide about__item">
+            <img class="fact__img" src="img/about-teacher.svg" alt="" aria-hidden="true">
+            <div class="fact__content">
+              <h3 class="fact__title">Вибір викладача</h3>
+              <p class="fact__text">Ви самі обираєте викладача серед доступних, орієнтуючись на досвід, стиль викладання
+                та комфорт у спілкуванні. Це допомагає швидше адаптуватися до навчання, працювати у зручному темпі та
+                отримувати пояснення, які дійсно зрозумілі саме вам.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a class="logo footer__logo" href="/">
+          <img class="logo__img" src="img/logo-white.png" alt="" aria-hidden="true">
+          <span class="logo__title logo__title--white">LEXIFY</span>
+        </a>
+        <p class="footer__slogan">Твій комфортний старт у мовах</p>
+      </div>
+
+      <div class="footer__info">
+        <div class="footer__contacts">
+          <h4 class="footer-text footer__contacts-title">Контакти:</h4>
+          <ul class="footer-text footer__contacts-list">
+            <li class="footer__contacts-item">
+              <a class="footer__contacts-link" href="tel:+380951234567">+38 (095) 123 45 67</a>
+            </li>
+            <li class="footer__contacts-item">
+              <a href="tel:+380501234567" class="footer__contacts-link">+38 (050) 123 45 67</a>
+            </li>
+            <li class="footer__contacts-item">
+              <a href="tel:+3806701234567" class="footer__contacts-link">+38 (067) 123 45 67</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class=" footer__socials">
+          <h4 class="footer-text footer__socials-title">Соціальні мережі:</h4>
+          <ul class="footer__socials-list">
+            <li class="footer__socials-item">
+              <a href="" class="footer__socials-link">
+                <img src="img/footer-inst.svg" alt="instagram">
+              </a>
+            </li>
+
+            <li class="footer__socials-item">
+              <a href="" class="footer__socials-link">
+                <img src="img/footer-facebook.svg" alt="facebook">
+              </a>
+            </li>
+
+            <li class="footer__socials-item">
+              <a href="" class="footer__socials-link">
+                <img src="img/footer-twitter.svg" alt="twitter">
+              </a>
+            </li>
+
+            <li class="footer__socials-item">
+              <a href="" class="footer__socials-link">
+                <img src="img/footer-whatsapp.svg" alt="whatsapp">
+              </a>
+            </li>
+
+            <li class="footer__socials-item">
+              <a href="" class="footer__socials-link">
+                <img src="img/footer-viber.svg" alt="viber">
+              </a>
+            </li>
+
+            <li class="footer__socials-item">
+              <a href="" class="footer__socials-link">
+                <img src="img/footer-tg.svg" alt="telegram">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
