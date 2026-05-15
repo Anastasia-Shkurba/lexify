@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="favicon.png">
+  <script src="script.js" defer></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,11 +63,11 @@
           <a class="program__link" href="index.html#courses">← Повернутися до курсів</a>
 
           <div class="program__header">
-            <h2 class="title program__title">Англійська</h2>
-            <p class="program__subtitle">English</p>
+            <h2 class="title program__title" id="course-title">Англійська</h2>
+            <p class="program__subtitle" id="course-subtitle">English</p>
           </div>
 
-          <p class="program__text">Англійська — це мова міжнародного спілкування, яка відкриває можливості для навчання,
+          <p class="program__text" id="course-desc">Англійська — це мова міжнародного спілкування, яка відкриває можливості для навчання,
             роботи та подорожей. На
             курсі ви поступово розвиваєте всі ключові навички: говоріння, розуміння на слух, читання та письмо. Навчання
             побудоване на практиці: ви вчитесь використовувати мову в реальних ситуаціях, а не просто запам’ятовувати
@@ -74,12 +75,12 @@
             спілкування.</p>
 
           <div class="btn-group program__buttons">
-            <button class="btn btn--md program__btn">Пройти тест → </button>
+            <a class="btn btn--md program__btn" href="test.html">Пройти тест → </a>
             <button class="btn btn--md btn--outline program__btn">Зв’язатися з менеджером</button>
           </div>
 
           <h3 class="program__level-label">Доступні рівні</h3>
-          <ul class="program__levels">
+          <ul class="program__levels" id="course-levels">
             <li class="level program__level">А1</li>
             <li class="level program__level">А2</li>
             <li class="level program__level">B1</li>
@@ -89,7 +90,7 @@
           </ul>
         </div>
 
-        <img class="program__img" src="img/english.jpg" alt="" aria-hidden="true">
+        <img class="program__img" id="course-img" src="img/english.jpg" alt="" aria-hidden="true">
       </section>
 
       <section class="details">
@@ -112,7 +113,7 @@
           <div class="offer__content">
             <h3 class="offer__title">Групові заняття</h3>
             <ul class="offer__list">
-              <li class="offer__item">Вартість: <span class="offer__accent">250</span> грн/год</li>
+              <li class="offer__item">Вартість: <span class="offer__accent" id="price-group">250</span> грн/год</li>
               <li class="offer__item">До <span class="offer__accent">8</span> студентів у групі</li>
               <li class="offer__item">Живе спілкування та практика</li>
               <li class="offer__item">Інтерактивні завдання та робота в парах</li>
@@ -126,7 +127,7 @@
           <div class="offer__content">
             <h3 class="offer__title">Індивідуальні заняття</h3>
             <ul class="offer__list">
-              <li class="offer__item">Вартість: <span class="offer__accent">400</span> грн/год</li>
+              <li class="offer__item">Вартість: <span class="offer__accent" id="price-individual">400</span> грн/год</li>
               <li class="offer__item">Гнучкий графік занять</li>
               <li class="offer__item">Програма під ваш рівень</li>
               <li class="offer__item">Максимальна увага до ваших цілей та потреб</li>

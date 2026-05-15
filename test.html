@@ -88,7 +88,7 @@
         </article>
       </section>
 
-      <section class="quiz" id="quiz-section">
+      <section class="quiz" id="quiz-section" style="display: none;">
         <article class="test-layout quiz__content">
           <div class="quiz__header">
             <div class="quiz__label">
@@ -132,33 +132,33 @@
         </article>
       </section>
 
-      <section class="result" id="result-section">
+      <section class="result" id="result-section" style="display: none;">
         <article class="test-layout result__content">
           <h2 class="test-title result__title">Тест завершено!</h2>
           <div class="result__outcome">
             <div class="result__proficiency">
               <p class="result__label">Ваш рівень володіння мовою</p>
-              <span class="result__value">A1–A2</span>
+              <span class="result__value" id="result-level">A1–A2</span>
             </div>
-            <p class="result__score">Ваш результат: 3 / 16</p>
+            <p class="result__score" id="result-score">Ваш результат: 3 / 16</p>
           </div>
           <div class="result-info result__about">
             <h3 class="result-info__header">Про ваш рівень</h3>
-            <p class="result-info__desc">Ви тільки починаєте знайомство з мовою або маєте базові знання. Вам може бути
+            <p class="result-info__desc-about" id="result-text-about">Ви тільки починаєте знайомство з мовою або маєте базові знання. Вам може бути
               складно розуміти мовлення на
               слух і будувати речення самостійно, але це нормальний етап на початку навчання.</p>
           </div>
           <div class="result-info result__reco">
             <h3 class="result-info__header">Рекомандації</h3>
-            <p class="result-info__desc">Рекомендуємо розпочати з групових занять, щоб поступово освоїти основи разом з
+            <p class="result-info__desc-reco" id="result-text-reco">Рекомендуємо розпочати з групових занять, щоб поступово освоїти основи разом з
               іншими студентами. Такий
               формат допомагає закріпити базу, звикнути до мови та не втратити мотивацію.</p>
           </div>
 
           <div class="result__btns">
-            <button class="btn btn--lg btn--outline result__btn">Повернутися на головну сторінку</button>
-            <button class="btn btn--lg btn--light result__btn">Спробувати ще раз</button>
-            <button class="btn btn--lg btn--wide result__btn">Зв’язатися з менеджером</button>
+            <a class="btn btn--lg btn--outline result__btn" href="index.html">Повернутися на головну сторінку</a>
+            <a class="btn btn--lg btn--light result__btn" href="test.html">Спробувати ще раз</a>
+            <a class="btn btn--lg btn--wide result__btn" href="index.html#contacts">Зв’язатися з менеджером</a>
           </div>
         </article>
       </section>
